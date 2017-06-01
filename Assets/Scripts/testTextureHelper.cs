@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class testTextureHelper : MonoBehaviour {
+public class TestTextureHelper : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		TextureHelper textureHelper=new TextureHelper();
+		ATextureHelper textureHelper=new ATextureHelper();
 		textureHelper.CreateTextureInEditor(new Color(),"Assets/Textures/test.png");
 	}
 	

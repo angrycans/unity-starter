@@ -76,7 +76,8 @@ public class tk2dTileMapData : ScriptableObject
 	public bool generateUv2 = false;
 	public bool layersFixedZ = false;
 	public bool useSortingLayers = false;
-	
+	public bool usePolygonColliders = false;
+
 	public GameObject[] tilePrefabs = new GameObject[0];
 	[SerializeField]
 	tk2dRuntime.TileMap.TileInfo[] tileInfo = new tk2dRuntime.TileMap.TileInfo[0];

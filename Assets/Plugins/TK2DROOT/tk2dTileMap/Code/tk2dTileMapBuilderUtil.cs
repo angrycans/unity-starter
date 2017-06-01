@@ -260,6 +260,11 @@ namespace tk2dRuntime.TileMap
 				int x, y, layerIdx;
 				GameObject instance;
 				tileMap.GetTilePrefabsListItem(i, out x, out y, out layerIdx, out instance);
+
+				if (instance == null)
+				{
+					continue;
+				}
 				
 				// Is it already IN the list for some reason?
 				if (!instExists[i]) {

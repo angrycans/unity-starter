@@ -19,6 +19,7 @@ MonoBehaviour:
   generateUv2: 0
   layersFixedZ: 0
   useSortingLayers: 0
+  usePolygonColliders: 0
   tilePrefabs:
   - {fileID: 0}
   - {fileID: 0}
